@@ -18,27 +18,31 @@ indobits@L-LAP:~/Dropbox/Python 201701$ git init
 Initialized empty Git repository in /home/indobits/Dropbox/Python 201701/.git/
 
 indobits@L-LAP:~/Dropbox/Python 201701$ git status
-indobits@L-LAP:~/git/test$ git add *
-indobits@L-LAP:~/git/test$ git commit -m "First commit" README.md
+indobits@L-LAP:~/Dropbox/Python 201701$ git add *
+indobits@L-LAP:~/Dropbox/Python 201701$ git commit -m "First commit"
 
-[master (root-commit) 0194988] First commit
- 1 file changed, 1 insertion(+)
+[master (root-commit) b74ac6b] First commit
+ 3 files changed, 122 insertions(+)
+ create mode 100644 1 Introduccion.ipynb
+ create mode 100644 Apuntes.txt
  create mode 100644 README.md
 
-indobits@L-LAP:~/git/test$ git remote add origin https://github.com/indobits/test.git
-indobits@L-LAP:~/git/test$ git remote -v
+indobits@L-LAP:~/Dropbox/Python 201701$ git remote add origin https://github.com/indobits/python_201701.git
+indobits@L-LAP:~/Dropbox/Python 201701$ git remote -v
 
-origin	https://github.com/indobits/test.git (fetch)
-origin	https://github.com/indobits/test.git (push)
+origin	https://github.com/indobits/python_201701.git (fetch)
+origin	https://github.com/indobits/python_201701.git (push)
 
-indobits@L-LAP:~/git/test$ git push -u origin master
+indobits@L-LAP:~/Dropbox/Python 201701$ git push -u origin master
 
 Username for 'https://github.com': indobits
 Password for 'https://indobits@github.com': drogas
 
-Counting objects: 3, done.
-Writing objects: 100% (3/3), 215 bytes | 0 bytes/s, done.
-Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/indobits/test.git
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 1.20 KiB | 0 bytes/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/indobits/python_201701.git
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
