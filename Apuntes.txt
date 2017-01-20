@@ -1,0 +1,44 @@
+
+Curso Python 201701:
+--------------------
+
+Jupyter:
+--------
+
+indobits@L-LAP:~$ jupyter notebook --port 9999
+
+Git:
+----
+
+indobits@L-LAP:~$ mkdir -p "Dropbox/Python 201701" && cd "Dropbox/Python 201701"
+
+indobits@L-LAP:~/Dropbox/Python 201701$ echo "oli boli" > README.md
+indobits@L-LAP:~/Dropbox/Python 201701$ git init
+
+Initialized empty Git repository in /home/indobits/Dropbox/Python 201701/.git/
+
+indobits@L-LAP:~/Dropbox/Python 201701$ git status
+indobits@L-LAP:~/git/test$ git add *
+indobits@L-LAP:~/git/test$ git commit -m "First commit" README.md
+
+[master (root-commit) 0194988] First commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+indobits@L-LAP:~/git/test$ git remote add origin https://github.com/indobits/test.git
+indobits@L-LAP:~/git/test$ git remote -v
+
+origin	https://github.com/indobits/test.git (fetch)
+origin	https://github.com/indobits/test.git (push)
+
+indobits@L-LAP:~/git/test$ git push -u origin master
+
+Username for 'https://github.com': indobits
+Password for 'https://indobits@github.com': drogas
+
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 215 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/indobits/test.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
