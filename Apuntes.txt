@@ -18,7 +18,7 @@ indobits@L-LAP:~/Dropbox/Python 201701$ git init
 Initialized empty Git repository in /home/indobits/Dropbox/Python 201701/.git/
 
 indobits@L-LAP:~/Dropbox/Python 201701$ git status
-indobits@L-LAP:~/Dropbox/Python 201701$ git add *
+indobits@L-LAP:~/Dropbox/Python 201701$ git add .
 indobits@L-LAP:~/Dropbox/Python 201701$ git commit -m "First commit"
 
 [master (root-commit) b74ac6b] First commit
